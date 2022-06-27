@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Darin Chakalov - Personal portfolio</title>
+
+		<!--
+    - custom css link
+  -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/media_query.css" />
+
+		<!--
+    - google font link
+  -->
+		<link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!--
+    - container
+  -->
+
+		<div class="container">
+			<!--
+      - #HEADER
+    -->
+
+			<header>
+				<!--
+        - navbar toggle open button
+      -->
+
+				<button class="menu-open-btn">
+					<span>Menu</span>
+					<ion-icon name="menu-outline"></ion-icon>
+				</button>
+
+				<nav class="nav">
+					<button class="menu-close-btn">
+						<ion-icon name="close-outline"></ion-icon>
+					</button>
+
+					<h4 class="nav-heading">Menu</h4>
+
+					<ul>
+						<li class="nav-item">
+							<a href="#home" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#about" class="nav-link">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#portfolio" class="nav-link">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link">Contact</a>
+						</li>
+					</ul>
+
+					<div class="nav-footer">
+						<ul class="social-link">
+							<li>
+								<a href="https://www.linkedin.com/in/darin-chakalov/">
+									<ion-icon name="logo-linkedin"></ion-icon>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://github.com/darinchakalov">
+									<ion-icon name="logo-github"></ion-icon>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+				<!--
+        - header intro
+      -->
+
+				<section class="intro section-padding">
+					<div class="intro-profile">
+						<div class="intro-border one"></div>
+						<div class="intro-border two"></div>
+
+						<div class="img-box">
+							<img src="./assets/images/me.jpg" alt="" class="intro-img" width="100%" loading="lazy" />
+						</div>
+
+						<p>Hi therе! I am</p>
+
+						<div class="profile-name">
+							<span>[</span>
+							<div>Darin Chakalov</div>
+							<span>]</span>
+						</div>
+					</div>
+
+					<a href="#contact" class="intro-link">
+						<span class="circle"></span>
+						<span class="link-underline">Contact me!</span>
+					</a>
+				</section>
+			</header>
+
+			<main>
+				<!--
+        - #HOME
+      -->
+
+				<section class="section-padding" id="home">
+					<h3 class="section-subtitle">Introduction</h3>
+
+					<h2 class="section-title">Fullstack JavaScript Developer</h2>
+
+					<p class="section-desc">
+						I design and develop services for customers of all sizes, specializing in creating stylish,
+						modern websites, web services and online stores.
+					</p>
+
+					<!-- <img src="./assets/images/signature.png" width="200px" alt="" loading="lazy"> -->
+				</section>
+
+				<!--
+        - #ABOUT
+      -->
+
+				<section class="section-padding" id="about">
+					<h3 class="section-subtitle">About me</h3>
+
+					<h2 class="section-title">Biography</h2>
+
+					<p class="section-desc">
+						I'm a Full-Stack Developer. I'm from Bulgaria. I code and create web elements for amazing people
+						around the world. I like work with new people. New people are new experiences.
+					</p>
+
+					<table class="about-table">
+						<tr>
+							<th>Name</th>
+							<td>Darin Chakalov</td>
+						</tr>
+						<tr>
+							<th>Birthday</th>
+							<td>26th March 1989</td>
+						</tr>
+						<tr>
+							<th>Address</th>
+							<td>Stara Zagora, Bulgaria</td>
+						</tr>
+						<tr>
+							<th>Phone</th>
+							<td>
+								<a href="tel:+359889213042" class="link-underline">(+359) 889 213042</a>
+							</td>
+						</tr>
+						<tr>
+							<th>Email</th>
+							<td>
+								<a href="mailto:darinchakalov@hotmail.com" class="link-underline"
+									>darinchakalov@hotmail.com</a
+								>
+							</td>
+						</tr>
+					</table>
+
+					<button class="download-cv">
+						<ion-icon name="cloud-download-outline"></ion-icon>
+						<a href="./assets/CV-Darin.Chakalov.pdf" download="">
+							<span>Download cv</span>
+						</a>
+					</button>
+
+					<div class="about-tab">
+						<ul class="tab-nav">
+							<li>
+								<button class="one tab-button active">Experience</button>
+							</li>
+							<li>
+								<button class="two tab-button">Education</button>
+							</li>
+							<li>
+								<button class="three tab-button">Skills</button>
+							</li>
+						</ul>
+
+						<div class="tab-content-group">
+							<div class="one tab-content active">
+								<div class="content-card">
+									<div class="card-head">
+										<h4>SiteGround Web Hosting Company</h4>
+										<p>( 2019 — Today )</p>
+									</div>
+
+									<div class="card-body">
+										<h3>SiteGround Web Hosting Company</h3>
+										<p>
+											Advanced Technical Support Engineer - Level 2 - Working on Cloud and
+											Dedicated servers, resolving issues related to Apache, Nginx, Exim, WHM over
+											SSH connection. Red Hat Enterprise Linux (RHEL), Unix, CentOS, Gentoo Linux,
+											Ubuntu, Mac OS X, Google Cloud Platform, MySQL Php, JavaScript, Vim
+										</p>
+									</div>
+								</div>
+
+								<div class="content-card">
+									<div class="card-head">
+										<h4>SiteGround Web Hosting Company</h4>
+										<p>( 2016 — 2019 )</p>
+									</div>
+
+									<div class="card-body">
+										<h3>Senior Technical Support Specialist</h3>
+										<p>
+											Technical Support Engineer - Level 1 Working with clients on Linux shared
+											servers. Resolving issues related to the client CMS applications (WordPress,
+											Joomla, Magento, and many others), emails, cPanel, and other configurations
+											via a ticketing system
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="two tab-content">
+								<div class="content-card">
+									<div class="card-head">
+										<h4>ReactJS at Software University (SoftUni)</h4>
+										<p>( 2022 )</p>
+									</div>
+
+									<div class="card-body">
+										<h3>Front-End Development</h3>
+										<p>
+											Knowledge and practical skills for building client applications (Single Page
+											Applications), using React Framework. Architectural templates for SPA
+											applications, components and others are studied. Views and templates for
+											data visualization (templates), models, data binding, multi-view work,
+											routing, data retrieval from REST services. Knowledge and practical skills
+											for the development of Single Page Applications (SPA) using ReactJS
+											technology - displaying the client interface. Special attention to JSX
+											syntax was paid, working with queries and Promises, splitting single
+											component applications, routing and form validation, and different ways to
+											style components using techniques such as CSS Modules and Styled Components.
+											Concepts in the library such as React Hooks and Context API. Writing Unit
+											Tests using JEST.
+										</p>
+									</div>
+								</div>
+								<div class="content-card">
+									<div class="card-head">
+										<h4>AngularJS at Software University (SoftUni)</h4>
+										<p>( 2022 )</p>
+									</div>
+
+									<div class="card-body">
+										<h3>Front-End Development</h3>
+										<p>
+											Knowledge and practical skills for building client applications (Single Page
+											Applications) with Angular technology. TypeScript syntax and concepts and
+											what more it offers us in front of JavaScript, as a convenience for
+											development in the browser and on mobile platforms. Single Page Application
+											(SPA), architectural templates for SPA applications, components, directives
+											and their implementation in Angular. Views and templates for data
+											visualization (templates), models, components, data binding, multi-view
+											work, observables, routing, data retrieval from REST service and dependency
+											injection. DI).
+										</p>
+									</div>
+								</div>
+
+								<div class="content-card">
+									<div class="card-head">
+										<h4>JS Back-End at Software University (SoftUni)</h4>
+										<p>( 2021 )</p>
+									</div>
+
+									<div class="card-body">
+										<h3>Back-End Development</h3>
+										<p>
+											An intensive course introducing development of server-side JavaScript
+											applications on the Node.js platform, using Express.js as a framework.
+											Creation Node.js servers, server-client architecture and how to make fast
+											data-driven web applications with Node.js, Express.js and MongoDB, using
+											modern techniques and tools. Building a complete REST API from scratch,
+											using Express.js and MongoDB.
+										</p>
+									</div>
+								</div>
+
+								<div class="content-card">
+									<div class="card-head">
+										<h4>JavaScript Advanced at Software University (SoftUni)</h4>
+										<p>( 2021 )</p>
+									</div>
+
+									<div class="card-body">
+										<h3>Software Engineering</h3>
+										<p>
+											Acquainted in more detail with the functionality of the JavaScript language,
+											with the environment in which it is most often used and for which it is
+											created - the browser. JavaScript as a basic syntax, concepts in programming
+											through the prism of the language. What is functional programming and what
+											are the differences with object-oriented programming. In detail the elements
+											of the browser, the DOM tree, how to add, remove and edit the elements in
+											it. Unit testing and techniques for testing code. Creation of application of
+											the type Single Page Applications, written entirely in JavaScript, using
+											concepts such as Routing and Templating.
+										</p>
+									</div>
+								</div>
+								<div class="content-card">
+									<div class="card-head">
+										<h4>JavaScript Fundamentals at Software University (SoftUni)</h4>
+										<p>( 2021 )</p>
+									</div>
+
+									<div class="card-body">
+										<h3>Software Engineering</h3>
+										<p>
+											Comprehensive training of software engineers. The module examines
+											fundamental concepts in programming, which are the basis for effective and
+											quality training of students in professional modules. Learners build on the
+											knowledge gained in the Programming Basics course and begin to use more
+											complex programming techniques and structures such as: sheets, dictionaries,
+											objects and classes. Additional technologies needed for each software
+											developer, such as HTML and CSS, HTTP, bitwise operations and others, are
+											studied. The basics of web development are considered, as well as some of
+											the most common technologies and tools, with which the module successfully
+											builds students' understanding of the upcoming professional modules and the
+											knowledge they will acquire from them to become successful software
+											developers.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="three tab-content">
+								<p class="skill-text">
+									Node.js, Express.js, REST APIs, MongoDB, React.js, JavaScript eXtension (JSX),
+									TypeScript, AngularJS, RxJS, NgRx, HTML5, Github, Cascading Style Sheets (CSS),
+									HTML, Linux, Shell Scripting, Analytical Skills, Troubleshooting, Problem
+									Management, Knowledge Sharing, git, MySQL, Bash, Problem Solving, SQL,
+									Representational State Transfer (REST), Secure Shell (SSH), RHCSA, Linux KVM
+									SELinux, Web Hosting, Email Hosting, Simple Mail Transfer Protocol (SMTP), Secure
+									File Transfer Protocol (SFTP), FTP, Hypertext Transfer Protocol (HTTP), NoSQL,
+									Mongoose ODM, Mongoose Web Server, RESTful WebServices
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!--
+        - #PORTFOLIO
+      -->
+
+				<section class="section-padding" id="portfolio">
+					<h3 class="section-subtitle">Portfolio</h3>
+
+					<div class="wrapper">
+						<h2 class="section-title">Featured Projects</h2>
+
+						<div class="btn-group">
+							<button id="portfolio-carousel-prev">
+								<div class="arrow">
+									<div class="arrow-head-left"></div>
+								</div>
+							</button>
+
+							<button id="portfolio-carousel-next">
+								<div class="arrow">
+									<div class="arrow-head-right"></div>
+								</div>
+							</button>
+						</div>
+					</div>
+
+					<div class="portfolio-carousel">
+						<div class="portfolio-carousel-inner">
+							<div class="portfolio-carousel-card">
+								<div class="card-head">
+									<img
+										src="./assets/images/angular.png"
+										alt=""
+										class="slider-img"
+										width="100%"
+										loading="lazy"
+									/>
+								</div>
+
+								<div class="card-body">
+									<p>Angular, NodeJs, MongoDB</p>
+									<h4><a href="#">E-commerce</a></h4>
+								</div>
+							</div>
+
+							<div class="portfolio-carousel-card">
+								<div class="card-head">
+									<img
+										src="./assets/images/react.png"
+										alt=""
+										class="slider-img"
+										width="100%"
+										loading="lazy"
+									/>
+								</div>
+
+								<div class="card-body">
+									<p>React, NodeJs, MongoDB</p>
+									<h4><a href="#">Ecolife</a></h4>
+								</div>
+							</div>
+
+							<div class="portfolio-carousel-card">
+								<div class="card-head">
+									<img
+										src="./assets/images/games-play.png"
+										alt=""
+										class="slider-img"
+										width="100%"
+										loading="lazy"
+									/>
+								</div>
+
+								<div class="card-body">
+									<p>React, NodeJs, MongoDB</p>
+									<h4><a href="#">Games Play</a></h4>
+								</div>
+							</div>
+
+							<div class="portfolio-carousel-card">
+								<div class="card-head">
+									<img
+										src="./assets/images/real-estate-agency.png"
+										alt=""
+										class="slider-img"
+										width="100%"
+										loading="lazy"
+									/>
+								</div>
+
+								<div class="card-body">
+									<p>ExpressJS, Handlebars, Mongoose</p>
+									<h4><a href="#">Real Estate Agency</a></h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!--
+        - #CONTACT
+      -->
+
+				<section class="section-padding" id="contact">
+					<h3 class="section-subtitle">Contact</h3>
+
+					<h2 class="section-title">Get In Touch</h2>
+
+					<p class="section-desc">
+						If you have any suggestion, project or even you want to say “hello”, please fill out the form
+						below and I will reply you shortly.
+					</p>
+
+					<form
+						action="https://public.herotofu.com/v1/0f8a3b60-f640-11ec-bc36-e1ea9ccadd33"
+						class="contact-form"
+						method="POST"
+					>
+						<div class="wrapper">
+							<div>
+								<label for="name">Name *</label>
+								<input type="text" name="name" id="name" required />
+							</div>
+
+							<div>
+								<label for="email">Email *</label>
+								<input type="email" name="email" id="email" required />
+							</div>
+						</div>
+
+						<div>
+							<label for="phone">Phone</label>
+							<input type="tel" name="phone" id="phone" />
+						</div>
+
+						<div>
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="8"></textarea>
+						</div>
+
+						<button type="submit">Send Message</button>
+					</form>
+
+					<div class="address">
+						<h4>Address</h4>
+						<address>Stara Zagora, Bulgaria</address>
+					</div>
+
+					<div class="phone">
+						<h4>Phone</h4>
+						<a href="tel:+1234567890">(+359) 889213042</a>
+					</div>
+
+					<div class="email">
+						<a href="mailto:darinchakalov@hotmail.com" class="link-underline">darinchakalov@hotmail.com</a>
+					</div>
+				</section>
+
+				<!--
+        - #FOOTER
+      -->
+
+				<div class="footer">
+					<a href="#home" class="go-top">
+						<div class="arrow">
+							<div class="arrow-head"></div>
+						</div>
+					</a>
+
+					<p class="copyright">
+						Copyright © 2022. All rights reserved.
+						<br />
+						Developed by <a href="#" class="link-underline">Darin Chakalov</a>
+					</p>
+				</div>
+			</main>
+		</div>
+
+		<!--
+    - custom js link
+  -->
+		<script src="./assets/js/script.js"></script>
+
+		<!--
+   - ionicon link
+  -->
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
